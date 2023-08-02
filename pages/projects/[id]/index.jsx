@@ -240,7 +240,7 @@ const ProjectId = () => {
 
                       <div className="">
                         <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4">
-                          {numberWithCommas(projectData?.P_sub)}
+                          {numberWithCommas(projectData?.PriceSub)}
                         </div>
                         <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
                           <Image

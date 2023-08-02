@@ -28,7 +28,7 @@ const Footer = () => {
               </div>
               <ul className="text-[#5D6F7E] text-sm">
                 <li className="mb-3">شفافیت و پاسخگویی</li>
-                <li className="mb-3">اصالت راهکارهای علمی و تکنولوژیکی</li>
+                <li className="mb-3">اصالت راهکارهای علمی و فناورانه</li>
                 <li className="mb-3">خطرپذیری مسئولانه</li>
               </ul>
             </div>

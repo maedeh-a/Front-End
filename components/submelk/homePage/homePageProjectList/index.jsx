@@ -40,8 +40,8 @@ const HomePageProjectList = ({ data }) => {
             Meterage,
             Unit,
             Status,
-            P_sub,
-            image,
+            PriceSub,
+            image
           }) => (
             <>
               <SwiperSlide key={id} className="pb-4">
@@ -129,7 +129,7 @@ const HomePageProjectList = ({ data }) => {
 
                       <div className="">
                         <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-sm">
-                          {numberWithCommas(P_sub)}
+                          {numberWithCommas(PriceSub)}
                         </div>
                         <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
                           <Image

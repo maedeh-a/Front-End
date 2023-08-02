@@ -24,7 +24,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>SubMelk</title>
+        <title>صاب‌ملک</title>
         {/* <link rel="icon" href="/img/img_full_logo.svg" /> */}
       </Head>
 

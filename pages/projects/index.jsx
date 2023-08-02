@@ -129,7 +129,7 @@ const Projects = () => {
                 Meterage,
                 Unit,
                 Status,
-                P_sub,
+                PriceSub,
                 ProjectImage,
               }) => (
                 <Link href={`/projects/${id}`} key={id}>
@@ -217,7 +217,7 @@ const Projects = () => {
 
                         <div className="">
                           <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-sm">
-                            {numberWithCommas(P_sub)}
+                            {numberWithCommas(PriceSub)}
                           </div>
                           <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
                             <Image
