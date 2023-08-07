@@ -41,11 +41,11 @@ const HomePageProjectList = ({ data }) => {
             Unit,
             Status,
             PriceSub,
-            image
+            ProjectImage
           }) => (
             <>
               <SwiperSlide key={id} className="pb-4">
-                <button className="w-[289px] h-[485px] bg-white rounded-lg overflow-hidden  shadowSlideCard">
+                <button className="w-[289px] h-[485px] bg-white rounded-lg overflow-hidden shadowSlideCard">
                   <div className="relative">
                     <div className="whitespace-nowrap px-3 text-sm py-1 text-[#FF006E] font-medium rounded-lg absolute right-3 top-3 z-10 bg-white border border-[#F4C8C1]">
                       {Status}
@@ -64,13 +64,18 @@ const HomePageProjectList = ({ data }) => {
                       nested
                       className="mySwiper2"
                     >
-                      {image?.map((item) => (
+                      {ProjectImage?.map(({ id, image }) => (
                         <SwiperSlide>
                           <div className="h-[227px] w-[289px] relative">
-                            <Image src={item} fill />
+                            <Image
+                    src={`${image}`}
+                    alt="صاب‌ملک"
+                    title={id}
+                  />
                           </div>
                         </SwiperSlide>
                       ))}
+                    
                     </Swiper>
                   </div>
                   <div className="text-[#173046] p-4 text-right ">
