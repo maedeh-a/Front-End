@@ -64,20 +64,27 @@ const HomePageProjectList = ({ data }) => {
                       nested
                       className="mySwiper2"
                     >
-                      {ProjectImage?.map(({ id, image }) => {
-                        console.log(image);
+                      {ProjectImage && ProjectImage.length > 0 ? ProjectImage.map(({ id, image }) => {
                         return <SwiperSlide key={id}>
                           <div className="h-[227px] w-[289px] relative">
                             <Image
                               src={image}
                               alt="صاب‌ملک"
                               title={id}
-                              width={200}
-                              height={200}
+                              fill
+                              className="object-cover"
+                              
                             />
                           </div>
                         </SwiperSlide>
-                      })}
+                      }) : <div className="h-[227px] w-[289px] relative">
+                          <Image
+                            src={"/img/noImagePlaceholder.png"}
+                            alt="no image"
+                            fill
+                            className="object-contain "
+                          ></Image>
+                        </div>}
                     
                     </Swiper>
                   </div>
