@@ -64,11 +64,12 @@ const HomePageProjectList = ({ data }) => {
                       nested
                       className="mySwiper2"
                     >
-                      {ProjectImage?.map(({ id, image }) => (
-                        <SwiperSlide>
+                      {ProjectImage?.map(({ id, image }) => {
+                        console.log(image);
+                        return <SwiperSlide key={id}>
                           <div className="h-[227px] w-[289px] relative">
                             <Image
-                              src={`${image}`}
+                              src={image}
                               alt="صاب‌ملک"
                               title={id}
                               width={200}
@@ -76,12 +77,12 @@ const HomePageProjectList = ({ data }) => {
                             />
                           </div>
                         </SwiperSlide>
-                      ))}
+                      })}
                     
                     </Swiper>
                   </div>
                   <div className="text-[#173046] p-4 text-right ">
-                    <div className="font-bold">{Name}</div>
+                    <div className="font-bold pr-16">{Name}</div>
                     <div className="flex items-center gap-2 mt-2 text-sm font-medium">
                       <Image
                         src="/img/submelk/location.svg"
