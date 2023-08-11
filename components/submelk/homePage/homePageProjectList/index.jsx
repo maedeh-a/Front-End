@@ -68,10 +68,12 @@ const HomePageProjectList = ({ data }) => {
                         <SwiperSlide>
                           <div className="h-[227px] w-[289px] relative">
                             <Image
-                    src={`${image}`}
-                    alt="صاب‌ملک"
-                    title={id}
-                  />
+                              src={`${image}`}
+                              alt="صاب‌ملک"
+                              title={id}
+                              width={200}
+                              height={200}
+                            />
                           </div>
                         </SwiperSlide>
                       ))}
