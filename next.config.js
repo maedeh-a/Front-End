@@ -6,7 +6,15 @@ module.exports = {
   //   },
   // },
   images: {
-    domains: ["submelk.vercel.app", "87.107.162.33"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '*submelk*',
+      },
+      {
+        protocol: 'https',
+        hostname: '87.107.162.33',
+      }],
     // unoptimized: true,
   },
   trailingSlash: false,
