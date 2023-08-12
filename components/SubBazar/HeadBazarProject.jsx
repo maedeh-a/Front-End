@@ -34,7 +34,7 @@ function HeadBazarProject() {
               <div className="flex justify-start items-start flex-col ms-10  ">
                 <div>
                       <span className="text-base text-blue900 font-bold mb-2">{market.title}</span>
-                      <div className="flex items-center text-sm text-[#173046] gap-1 my-3">
+                      <div className="flex items-center text-sm text-blue900 gap-1 my-3">
                           <Image
                               src="/img/submelk/location.svg"
                               width="20"
@@ -63,10 +63,10 @@ function HeadBazarProject() {
         <div className="">
               <div className="flex items-center justify-between font-medium">
                   <div className="mx-4">
-                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-[#173046]">
+                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-blue900">
                           4000
                       </div>
-                      <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
+                      <div className="flex items-center text-sm text-gray900 justify-center gap-1">
                           <Image
                               src="/img/submelk/metraj.svg"
                               width="20"
@@ -77,10 +77,10 @@ function HeadBazarProject() {
                   </div>
                   <div className="h-[44px] w-[1px] bg-[#EAEEF3]"></div>
                   <div className="mx-4">
-                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-[#173046]">
+                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-blue900">
                           24
                       </div>
-                      <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
+                      <div className="flex items-center text-sm text-gray900 justify-center gap-1">
                           <Image
                               src="/img/submelk/vahed.svg"
                               width="20"
@@ -92,10 +92,10 @@ function HeadBazarProject() {
                  
                   <div className="h-[44px] w-[1px] bg-[#EAEEF3]"></div>
                   <div className="mx-4">
-                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-sm text-[#173046]">
+                      <div className="text-center py-1 px-2 bg-[#F4F4F4] rounded-md mb-4 text-sm text-blue900">
                           ۹۹,۰۰۰
                       </div>
-                      <div className="flex items-center text-sm text-[#5D6F7E] justify-center gap-1">
+                      <div className="flex items-center text-sm text-gray900 justify-center gap-1">
                           <Image
                               src="/img/submelk/sub.svg"
                               width="15"

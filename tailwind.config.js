@@ -12,6 +12,8 @@ module.exports = {
     colors: {
       "blue900": "#173046",
       "white":"#fff",
+      "gray900":"#5D6F7E",
+      "white200":"#F8F8F8"
     },
   },
   plugins: [],
