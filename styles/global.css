@@ -318,3 +318,6 @@ video {
 button:disabled {
   opacity: 0.5;
 }
+body{
+  background: #F7F7F9;
+}
