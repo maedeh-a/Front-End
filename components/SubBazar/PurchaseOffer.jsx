@@ -1,6 +1,7 @@
 import React from 'react'
 import IRT from '../IRT';
 import Image from "next/image";
+import Modalpurchaseoffer from './Modalpurchaseoffer';
 function PurchaseOffer() {
     const offerText = {
         name: "مبلمان راحتی",
@@ -95,6 +96,7 @@ function PurchaseOffer() {
                                     >
                                         ثبت
                                     </button>
+                                        <Modalpurchaseoffer/>
                                 </div>
 
                             </div>

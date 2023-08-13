@@ -17,6 +17,8 @@ module.exports = {
       "gray800":"#9DADBA",
       "white200": "#F8F8F8",
       "red":"#FF3E3E",
+      "gray700":"#EAEEF3",
+      "sky":"#FAFCFF",
     },
   },
   plugins: [],
